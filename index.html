@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to Brew Sky</title>
+  
+  <!-- Link to Google Fonts for better typography -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
+  <style>
+    /* Use Google Font Roboto */
+    body {
+      font-family: 'Roboto', sans-serif;
+    }
+
+    .hero-image {
+      background-image: url('https://via.placeholder.com/1200x400.png?text=Coffee+Shop');
+      background-size: cover;
+      background-position: center;
+      height: 400px;
+    }
+
+    .card-img-top {
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .hero-image h1, .hero-image p {
+      font-family: 'Roboto', sans-serif;
+    }
+
+    .hero-image .display-3 {
+        color: black;
+        font-weight: 700;
+    }
+
+    .hero-image p {
+        color: black;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="hero-image">
+    <div class="container text-center text-white d-flex justify-content-center align-items-center h-100">
+      <div>
+        <h1 class="display-3 font-weight-bold">Brew Sky</h1>
+        <p class="lead">Where every sip feels like home</p>
+        <a href="#menu" class="btn btn-light btn-lg mt-3">Explore Our Menu</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container py-5">
+    <h2 class="text-center">About Brew Sky</h2>
+    <p class="text-center text-muted">At Brew Sky, we serve freshly brewed coffee, delicious pastries, and a cozy environment perfect for relaxation. Whether you're here to catch up with friends or need a quiet place to work, we've got you covered.</p>
+  </div>
+
+  <div id="menu" class="container py-5">
+    <h2 class="text-center mb-4">Our Menu</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://blogstudio.s3.theshoppad.net/coffeeheroau/ec178d83e5f597b162cda1e60cb64194.jpg" class="card-img-top" alt="Espresso">
+          <div class="card-body">
+            <h5 class="card-title">Espresso</h5>
+            <p class="card-text">Rich, bold espresso made with premium beans.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://www.tastingtable.com/img/gallery/how-the-us-helped-the-lattes-global-popularity-skyrocket/l-intro-1674148261.jpg" class="card-img-top" alt="Latte">
+          <div class="card-body">
+            <h5 class="card-title">Latte</h5>
+            <p class="card-text">A smooth blend of espresso and steamed milk, topped with a light foam.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://img.freepik.com/premium-photo/freshly-baked-pastries-assortment-background-filling-entire-image_1079150-69708.jpg?w=2000" class="card-img-top" alt="Pastry">
+          <div class="card-body">
+            <h5 class="card-title">Fresh Pastry</h5>
+            <p class="card-text">Baked fresh daily, our pastries are the perfect complement to your coffee.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container py-5">
+    <h2 class="text-center">Contact Us</h2>
+    <form>
+      <div class="form-group">
+        <label for="name">Full Name</label>
+        <input type="text" class="form-control" id="name" placeholder="Your Name">
+      </div>
+      <div class="form-group">
+        <label for="email">Email address</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter email">
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea class="form-control" id="message" rows="4" placeholder="Your message here..."></textarea>
+      </div>
+      <button type="submit" class="btn btn-dark">Send Message</button>
+    </form>
+  </div>
+
+  <footer class="bg-dark text-white text-center py-4">
+    <p>&copy; 2025 Brew Sky. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
